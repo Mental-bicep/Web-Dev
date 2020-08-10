@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position:relative;
+    background-color: #00b7c2;
+    /* background-color: red; */
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;;
+    /* background-color: blue; */
+    
+}
+.btn{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:8vw;
+    height:6vh;
+    transform:translate(-50%,-50%);
+    border-radius: 15px;
+    /* color: */
+    /* border: none; */
+    outline: none;
+}
