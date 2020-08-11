@@ -1,37 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    position:relative;
+body {
+    position: relative;
     background-color: #00b7c2;
     /* background-color: red; */
 }
 
-.container{
+.container {
     width: 100vw;
     height: 100vh;
-    position: relative;;
+    position: relative;
     /* background-color: blue; */
-    
 }
-.btn{
-    position:absolute;
+.btn {
+    /* position:absolute;
     left:50%;
-    top:50%;
-    width:10vw;
-    height:8vh;
+    top:50%; */
+    width: 100%;
+    height: 100%;
     font-size: 25px;
     font-weight: bold;
-    transform:translate(-50%,-50%);
+    background-color: rgba(121, 36, 36, 0.178);
     border-radius: 15px;
-    background-color: transparent;
-    border-color: black;
-    /* border: none; */
+
+    border-color: transparent;
+
     outline: none;
 }
-.btn:hover{
-    background-color: rgba(24, 24, 24, 0.603);
+.box {
+    width: 10vw;
+    height: 8vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    left: 50%;
+    top: 50%;
+    border-radius: 15px;
+    box-shadow: 0 0 0.5 transparent;
+    transition: all 0.2s;
+}
+.box:hover {
+    box-shadow: 3px 5px 5px 3px rgba(121, 36, 36, 0.26);
+}
+.btn:hover {
+    background-color: rgba(121, 36, 36, 0.178);
+    /*took white back col and low opacity to get the same color as back col*/
     color: #fff;
+    /* box-shadow: 3px 10px 10px rgba(121, 36, 36, 0.26); */
 }
