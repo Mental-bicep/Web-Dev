@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outerBox {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+}
+.mainBox {
+    width: 40vw;
+    height: 40vh;
+    border: 2px solid red;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.titleBox {
+    width: 75%;
+    height: 25%;
+    margin: 6% auto;
+    border: 2px solid yellow;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    top: 12%;
+    line-height: 75px;
+}
+.btn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 7vw;
+    height: 7vh;
+    font-size: 20px;
+    border-radius: 12px;
+    outline: none;
+    border-color: transparent;
+    color: white;
+    background-color: rgba(221, 204, 204, 0.1);
+    transition: all 0.3s;
+    box-shadow: 0 0 0.5 transparent;
+    /* opacity: 0.8; */
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(221, 204, 204, 0.2);
+    /* box-shadow: 3px 3px 5px 3px rgba(221, 204, 204, 0.2); */
+}
