@@ -14,7 +14,7 @@ let color = [
 btn = document.getElementById("btn");
 titleBox = document.getElementById("titleBox");
 let n = Math.floor(Math.random() * (color.length - 1));
-html = "<h1>HEX COLOR: #{color[n]}<h1>";
+html = `<h1>HEX COLOR: ${color[n].toUpperCase()}<h1>`;
 titleBox.innerHTML = html;
 document.body.style.backgroundColor = color[n];
 
