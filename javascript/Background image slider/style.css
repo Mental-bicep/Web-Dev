@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outerBox {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    border: 4px solid rgb(90, 189, 250);
+    overflow: hidden;
+    background-image: url("img/9.jpg");
+    background-size: cover;
+}
+.leftArrow,
+.rightArrow {
+    width: 2.5vw;
+    height: 4vh;
+    /* border: 1px solid red; */
+    position: absolute;
+    transform: translate(0, -50%);
+    background-color: rgb(90, 189, 250);
+    /* z-index: 2; */
+    color: white;
+    font-size: 10px;
+}
+.leftArrow {
+    top: 50%;
+    left: -0.9%;
+}
+.rightArrow {
+    top: 50%;
+    right: -0.9%;
+}
