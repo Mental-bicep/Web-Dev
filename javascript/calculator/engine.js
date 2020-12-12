@@ -4,4 +4,4 @@ operators.forEach((item) => {
     item.addEventListener("click", fun);
 });
 
-fun = () => {};
+// fun = () => {};
